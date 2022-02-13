@@ -5,7 +5,7 @@ Articles dataset:
 - prod_name: not necessary?
 - product_type_no: id for the product type
 - product_type_name: name of the product type
-- product_group_name: name of the product group (differences w product type?)
+- product_group_name: name of the product group (there is no id for this one) 
 - graphical_appearance_no: id for the graphical appearance
 - graphical_appearance_name: name for the graphical appearance (example: stripes, solid, etc.)
 - color_group_code: id of the color
@@ -22,7 +22,7 @@ Articles dataset:
 - index_group_name name of the group segmentation of customers (Menswear, Baby/Children,etc.)
 - section_no: id for a more specific segmentation of customers
 - section_name: name for a more specific segmentation of customers (Womens everyday collection, etc.)
-- garment_group_no:               
+- garment_group_no:         
 - garment_group_name            
 - detail_desc: description of product
 
@@ -32,6 +32,7 @@ relationships:
 Note:
 At a first attempt, I would try with the following features(using ids only -> use of dictionaries):
 
+article_id, product_code, product_type_no,product_group_name,department_no , perceived_color_master_id,index_code, index_group_no, section_no, garment_group_no
 
 
 

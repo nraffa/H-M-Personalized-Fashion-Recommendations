@@ -1,0 +1,14 @@
+ #   Column                  Non-Null Count    Dtype  
+---  ------                  --------------    -----  
+ 0   customer_id             1371980 non-null  object 
+ 1   FN                      476930 non-null   float64
+ 2   Active                  464404 non-null   float64
+ 3   club_member_status      1365918 non-null  object 
+ 4   fashion_news_frequency  1355971 non-null  object 
+ 5   age                     1356119 non-null  float64
+ 6   postal_code             1371980 non-null  object 
+
+Note:
+At a first attempt, I would try with the following features(using ids only -> use of dictionaries):
+
+customer_id , Active, Age
