@@ -1,0 +1,38 @@
+Articles dataset:
+
+- article_id: unique id per item(or product?)
+- product_code: ?? (1 to many article_id rel.)
+- prod_name: not necessary?
+- product_type_no: id for the product type
+- product_type_name: name of the product type
+- product_group_name: name of the product group (differences w product type?)
+- graphical_appearance_no: id for the graphical appearance
+- graphical_appearance_name: name for the graphical appearance (example: stripes, solid, etc.)
+- color_group_code: id of the color
+- color_group_name: name of the color (much more specific than the perceived color master name)
+- perceived_colour_value_id: id of perceived colour
+- perceived_colour_value_name: name of the perceived colour (dark,light,bright,etc.)
+- perceived_colour_master_id: id of the perceived colour
+- perceived_colour_master_name : name of the general colour
+- department_no: id of department of the product         
+- department_name: name of department of the product (another type of category)
+- index_code: id of the segmentation of customers
+- index_name: name of the segmentation of customers (per size, gender, etc.)               
+- index_group_no: id of the group segmentation of customers
+- index_group_name name of the group segmentation of customers (Menswear, Baby/Children,etc.)
+- section_no: id for a more specific segmentation of customers
+- section_name: name for a more specific segmentation of customers (Womens everyday collection, etc.)
+- garment_group_no:               
+- garment_group_name            
+- detail_desc: description of product
+
+relationships:
+- product group > product type > department -> example: Underwear > Bra > Clean Lingerie
+- index group > index 
+Note:
+At a first attempt, I would try with the following features(using ids only -> use of dictionaries):
+
+
+
+
+              
