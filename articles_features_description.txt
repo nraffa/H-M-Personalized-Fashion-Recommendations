@@ -1,5 +1,35 @@
 Articles dataset:
 
+RangeIndex: 105542 entries, 0 to 105541
+Data columns (total 25 columns):
+ #   Column                        Non-Null Count   Dtype 
+---  ------                        --------------   ----- 
+ 0   article_id                    105542 non-null  int64 
+ 1   product_code                  105542 non-null  int64 
+ 2   prod_name                     105542 non-null  object
+ 3   product_type_no               105542 non-null  int64 
+ 4   product_type_name             105542 non-null  object
+ 5   product_group_name            105542 non-null  object
+ 6   graphical_appearance_no       105542 non-null  int64 
+ 7   graphical_appearance_name     105542 non-null  object
+ 8   colour_group_code             105542 non-null  int64 
+ 9   colour_group_name             105542 non-null  object
+ 10  perceived_colour_value_id     105542 non-null  int64 
+ 11  perceived_colour_value_name   105542 non-null  object
+ 12  perceived_colour_master_id    105542 non-null  int64 
+ 13  perceived_colour_master_name  105542 non-null  object
+ 14  department_no                 105542 non-null  int64 
+ 15  department_name               105542 non-null  object
+ 16  index_code                    105542 non-null  object
+ 17  index_name                    105542 non-null  object
+ 18  index_group_no                105542 non-null  int64 
+ 19  index_group_name              105542 non-null  object
+ 22  garment_group_no              105542 non-null  int64 
+ 23  garment_group_name            105542 non-null  object
+ 24  detail_desc                   105126 non-null  object
+dtypes: int64(11), object(14)
+memory usage: 20.1+ MB
+
 - article_id: unique id per item(or product?)
 - product_code: ?? (1 to many article_id rel.)
 - prod_name: not necessary?
