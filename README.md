@@ -11,3 +11,8 @@ https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations
 ### Data
 
 There are 3 datasets: articles, customers and transactions_train. All of them can be found on the official site of the competition
+
+### Sources
+Special thanks to datasource.ai who published an excellent guide to user/item based collaborative filtering. It can be found in the following link: 
+
+https://www.datasource.ai/uploads/6b86b1630562b323a26143f90d97fe08.html
